@@ -2,3 +2,33 @@ li {
   list-style-type: none;
   color: #e40007;
 }
+
+.container-fluid {
+  background-color: pink;
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 768px) {
+  .container-fluid {
+    background-color: #000;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .container-fluid {
+    background-color: yellow;
+  }
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 300px) {
+  .col-md-3 {
+    background-color: yellow;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .col-md-3 {
+    background-color: purple;
+  }
+}
